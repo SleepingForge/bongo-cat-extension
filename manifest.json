@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "bongo-cat",
+  "version": "1.0",
+  "description": "🐱🥁",
+  "action": {
+    "default_popup": "popup/cat.html"
+  },
+  "icons": {
+    "48": "icon@48.png",
+    "128": "icon@128.png",
+    "530": "icon@530.png"
+  }
+}
+

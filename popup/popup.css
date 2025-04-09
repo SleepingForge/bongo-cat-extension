@@ -1,0 +1,37 @@
+@keyframes bongo {
+    0% {
+        background-image: url("../assets/bongo-cat-bonk.webp");
+    }
+
+    50% {
+        background-image: url("../assets/bongo-cat-bink.webp");
+    }
+}
+
+html, body {
+    height: 407px;
+    width: 499px;
+    padding: 0;
+    margin: 0;
+}
+
+#cat {
+    background-image: url("../assets/bongo-cat.webp");
+    background-size: 499px 407px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.playBongo {
+    animation: bongo 0.15s steps(1) infinite;
+}
+
+#bink, #bonk {
+    height: 100%;
+    width: 100%;
+}
+
