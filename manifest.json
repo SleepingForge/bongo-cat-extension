@@ -10,6 +10,15 @@
     "48": "icon@48.png",
     "128": "icon@128.png",
     "530": "icon@530.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sleepingforge@gmail.com",
+      "strict_min_version": "42.0"
+    },
+    "gecko_android": {
+      "id": "sleepingforge@gmail.com",
+      "strict_min_version": "42.0"
+    },
   }
 }
-
